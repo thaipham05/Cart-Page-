@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="cart">
+    <form action="">
+        <table>
+            <thead>
+               <tr style="color:dodgerblue">
+                   <th>Name</th>
+                   <th>Price</th>
+                   <th>Quantity</th>
+                   <th>Subtotal</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                   <td style="display:flex;align-items:center"><img style="width:140px" src="Vixen Compact Cube Dining Set.jpg" alt="">Vixen Compact Cube Dining Set</td>
+                   <td><span style="text-decoration: line-through">256.10</span><sup>$</sup> <span style="color:firebrick">200.00</span><sup>$</sup></a></td>
+                   <td><input onclick="var result = document.getElementById('quantity'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" type='button' value='-' />
+                       <input style="width: 30px" id='quantity' min='1' name='quantity' type='text' value='1' />
+                       <input onclick="var result = document.getElementById('quantity'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" type='button' value='+' /></td>
+                   <td style="font-size: 20px;color:firebrick"><span>200.00</span><sup>$</sup></td>
+                   <td><button>x</button></td>
+               </tr>
+               <tr>
+                   <td style="display:flex;align-items:center"><img style="width:140px" src="Priya Side Table.jpg" alt="">Priya Side Table</td>
+                   <td><span style="text-decoration: line-through">201.89</span><sup>$</sup> <span style="color:firebrick">188.88</span><sup>$</sup></a></td>
+                   <td><input onclick="var result = document.getElementById('quantity'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" type='button' value='-' />
+                       <input style="width: 30px" id='quantity' min='1' name='quantity' type='text' value='1' />
+                       <input onclick="var result = document.getElementById('quantity'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" type='button' value='+' /></td>
+                   <td style="font-size: 20px;color:firebrick"><span>188.88</span><sup>$</sup></td>
+                   <td><button>x</button></td>
+               </tr>
+               <tr>
+                   <td style="display:flex;align-items:center"><img style="width:140px" src="Mateo Clic Clac Sofa Bed.jpg" alt="">Mateo Clic Clac Sofa Bed</td>
+                   <td><span style="text-decoration: line-through">947.22</span><sup>$</sup> <span style="color:firebrick">888.76</span><sup>$</sup></a></td>
+                   <td><input onclick="var result = document.getElementById('quantity'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" type='button' value='-' />
+                       <input style="width: 30px" id='quantity' min='1' name='quantity' type='text' value='1' />
+                       <input onclick="var result = document.getElementById('quantity'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" type='button' value='+' /></td>
+                   <td style="font-size: 20px;color:firebrick"><span>888.76</span><sup>$</sup></td>
+                   <td><button>x</button></td>
+               </tr>
+            </tbody>
+        </table>
+    </form>
+</section>
+
+
+</body>
+</html>
